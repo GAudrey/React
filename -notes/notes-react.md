@@ -1,0 +1,3 @@
+- Majuscule en début de components react car covnention
+- <></> s'appelle un fragment, utilisé pour éviter de mettre une div inutile
+- ctrl+/ : commentaire auto
