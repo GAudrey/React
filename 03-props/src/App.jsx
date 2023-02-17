@@ -1,22 +1,33 @@
 import React from 'react';
+import User from './components/User';
 
-const App = () => (
-  <div className="py-10 max-w-7xl mx-auto">
-    <header>
-      <div>
-        <img src="/img/logo.png" alt="logo app" className="w-36 mx-auto" />
-      </div>
-    </header>
-    <main>
-      <div className="sm:px-6 lg:px-8">
-        <div className="px-4 py-8 sm:px-0">
-          <div className="border-4 border-dashed border-gray-200 rounded-lg min-h-96 p-8">
-            {/* Ici votre contenu */}
+const App = () => {
+  const user = {
+    name: 'Varoh',
+    age: 35,
+    comment: {
+      lastComment: 'Vive les tractopelles !',
+    },
+  };
+
+  return (
+    <div className="py-10 max-w-7xl mx-auto">
+      <header>
+        <div>
+          <img src="/img/logo.png" alt="logo app" className="w-36 mx-auto" />
+        </div>
+      </header>
+      <main>
+        <div className="sm:px-6 lg:px-8">
+          <div className="px-4 py-8 sm:px-0">
+            <div className="border-4 border-dashed border-gray-200 rounded-lg min-h-96 p-8">
+              <User name={user.name} age={user.age} bisou={user.comment.lastComment} />
+            </div>
           </div>
         </div>
-      </div>
-    </main>
-  </div>
-);
+      </main>
+    </div>
+  );
+};
 
 export default App;
