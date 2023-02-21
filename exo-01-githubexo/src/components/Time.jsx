@@ -1,8 +1,8 @@
-import { formatDistance, subDays } from 'date-fns';
+import { formatDistance } from 'date-fns';
 
-const Time = ({ time }) => (
+const Time = ({ date }) => (
   <p className="text-right text-gray-500">
-    {formatDistance(subDays(new Date(time), 3), new Date(), { addSuffix: true })}
+    {formatDistance(date, new Date(), { addSuffix: true })}
   </p>
 );
 
