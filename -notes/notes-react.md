@@ -12,3 +12,5 @@ https://heroicons.com/
 - data down / action up : https://miro.medium.com/max/1400/1*DNbS0xnXkGXd4n5yftwjCA.jpeg
   - La donnée sera dans le parent mais pas forcément tout en haut dans le placement des components
   - L'action s'effectuera en revanche dans l'enfant concerné
+- Préférer date-fns pour lib format date
+- Si ne trouve pas ctrl+shift+p -> reload window
