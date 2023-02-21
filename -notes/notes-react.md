@@ -14,3 +14,4 @@ https://heroicons.com/
   - L'action s'effectuera en revanche dans l'enfant concerné
 - Préférer date-fns pour lib format date
 - Si ne trouve pas ctrl+shift+p -> reload window
+- State est un mot réservé
