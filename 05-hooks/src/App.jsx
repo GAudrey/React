@@ -1,5 +1,6 @@
 import React from 'react';
 import ClickButton from './components/ClickButton';
+import Form from './components/Form';
 
 const App = () => (
   <div className="py-10 max-w-7xl mx-auto">
@@ -13,6 +14,7 @@ const App = () => (
         <div className="px-4 py-8 sm:px-0">
           <div className="border-4 border-dashed border-gray-200 rounded-lg min-h-96 p-8">
             <ClickButton />
+            <Form />
           </div>
         </div>
       </div>
