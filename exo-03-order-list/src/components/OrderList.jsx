@@ -17,6 +17,8 @@ const OrderList = () => {
     }
   };
 
+  console.table(productArray);
+
   return (
     <div className="bg-gray-100 rounded-md p-5">
       <form onSubmit={handleSubmit}>

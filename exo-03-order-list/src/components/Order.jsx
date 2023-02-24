@@ -10,7 +10,7 @@ const Order = ({ allProducts }) =>
         <span>{product}</span>
       </p>
       <p>
-        <button type="button" onClick={() => allProducts.filter(product)}>
+        <button type="button">
           <DeleteIcon />
         </button>
       </p>
